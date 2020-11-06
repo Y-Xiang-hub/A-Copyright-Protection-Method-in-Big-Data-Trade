@@ -4,7 +4,7 @@
 //Remix: Compiler 0.4.24+conmmit.e67f0147
 pragma solidity >=0.4.22 <0.7.0;
 
-contract FSGS {
+contract Scheme {
 
 /************************DEFINE************************/
 
