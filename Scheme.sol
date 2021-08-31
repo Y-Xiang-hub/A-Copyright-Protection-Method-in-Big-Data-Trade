@@ -1,7 +1,9 @@
-//Author: Yuexin Xiang
-//E-mail: yuexin.xiang@cug.edu.cn
+// @Author: Yuexin Xiang
+// @Email: yuexin.xiang@cug.edu.cn
 
-//Remix: Compiler 0.4.24+conmmit.e67f0147
+
+//Remix Compiler 0.4.24+conmmit.e67f0147
+
 pragma solidity >=0.4.22 <0.7.0;
 
 contract Scheme {
