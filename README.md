@@ -11,4 +11,4 @@ This is a Demo of [our work](https://www.sciencedirect.com/science/article/abs/p
         author = {Yuexin Xiang and Wei Ren and Tiantian Li and Xianghan Zheng and Tianqing Zhu and Kim-Kwang Raymond Choo},
         }
 
-To further understand how our code works, you can see the Direction.pdf. If you have any questions please email me at yuexin.xiang@cug.edu.cn, I will reply when I am free.
+To further understand how our code works, you can see the Directions.pdf. If you have any questions please email me at yuexin.xiang@cug.edu.cn.
