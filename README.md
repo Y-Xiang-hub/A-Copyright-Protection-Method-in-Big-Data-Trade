@@ -8,7 +8,7 @@ This is a Demo of [our work](https://www.sciencedirect.com/science/article/abs/p
         pages = {102953},
         year = {2021},
         doi = {https://doi.org/10.1016/j.jnca.2020.102953},
-        author = {Yuexin Xiang and Wei Ren and Tiantian Li and Xianghan Zheng and Tianqing Zhu and Kim-Kwang Raymond Choo},
+        author = {Yuexin Xiang and Wei Ren and Tiantian Li and Xianghan Zheng and Tianqing Zhu and Kim-Kwang Raymond Choo}
         }
 
 To further understand how our code works, you can see the Directions.pdf. If you have any questions please feel free to contact me on e-mail yuexin.xiang@cug.edu.cn.
