@@ -1,5 +1,5 @@
 # A Copyright Protection Method in Big Data Trade
-This is a Demo of [our work](https://www.sciencedirect.com/science/article/abs/pii/S1084804520304057). If you find our code is useful for your research, please considering citing it as:
+This is the prototype of [our work](https://www.sciencedirect.com/science/article/abs/pii/S1084804520304057). If you find our code is useful for your research, please considering citing it as:
 
         @article{XIANG2021102953,
           title = {A multi-type and decentralized data transaction scheme based on smart contracts and digital watermarks},
