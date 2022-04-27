@@ -10,39 +10,39 @@ contract Scheme {
 
 /************************DEFINE************************/
 
-	uint256 Value_Amount;//The amount of the transaction
-	uint256 Value_Deposit;//The deposi of the transaction
-	uint256 Time_First;//Record the time Bob finished the first step(Bob pays)
-	uint256 Time_Second;//Record the time Alice finished the second step(Alice sends encrypted key)
-	uint256 Time_Third;//Record the time Bob finished the third step(Bob reports)
-	uint256 Time_Rep = 300 seconds;//The time Bob can send report after transaction is finished 
-	uint256 Time_Trans = 300 seconds;//The time limit of each step
-	string PubKey_Buyer;//Bob's public key
+    uint256 Value_Amount;//The amount of the transaction
+    uint256 Value_Deposit;//The deposi of the transaction
+    uint256 Time_First;//Record the time Bob finished the first step(Bob pays)
+    uint256 Time_Second;//Record the time Alice finished the second step(Alice sends encrypted key)
+    uint256 Time_Third;//Record the time Bob finished the third step(Bob reports)
+    uint256 Time_Rep = 300 seconds;//The time Bob can send report after transaction is finished 
+    uint256 Time_Trans = 300 seconds;//The time limit of each step
+    string PubKey_Buyer;//Bob's public key
     string EncryptedKey_Seller;//Alice's key encrypted(EK) by Bob's PK
     string EvidenceKey;//Bob sends the key he recieved as evidence to the smart contract
     string ReasonType;//Bob chooses the reason for reporting Alice
     string Hash_Data;//Alice's selling data(verify by web)
     string Hash_Key;//Alice's key's hash value(verify by web)
 	
-	address public AddressPay;//Alice can recieve the money by the address
-	address public AddressBuyer;//The address of Bob
-	address public AddressVerify;//The address of the person who helps veriifying
-	string public DataAddress = "www.cugdatatrade.com";//The adress of the big data
-	string public CalHash = "https://emn178.github.io/online-tools/sha256_checksum.html";//The web for calculating sha256
+    address public AddressPay;//Alice can recieve the money by the address
+    address public AddressBuyer;//The address of Bob
+    address public AddressVerify;//The address of the person who helps veriifying
+    string public DataAddress = "www.cugdatatrade.com";//The adress of the big data
+    string public CalHash = "https://emn178.github.io/online-tools/sha256_checksum.html";//The web for calculating sha256
 	
-	bool Goal_Amount = false;//Judge if Alice sets the amount
-	bool Goal_HashData = false;//Judge if Alice uploads Hash value of the data
-	bool Goal_HashKey = false;//Judge if Alice uploads Hash value of the key
-	bool Goal_Deposit = false;//Judge if Alice sends the deposit
-	bool Goal_Money = false;//Judge if Bob sends the money 
-	bool Goal_PubKeyB = false;//Judge if Bob sends his public key 
-	bool Goal_EnK = false;//Judge if Alice sends the encrypted key
-	bool Goal_GotRep = false;//Jugde if Bob sends the report
-	bool Goal_Verify = false;//Judge if the report sent by Bob is true
-	bool Goal_Success = false;//Judge if the transaction is successful
-	bool Goal_First = false;//Judge if the time of first step is run out
-	bool Goal_Second = false;//Judge if the time of second step is run out
-	bool Goal_Third = false;//Judge if the time of third step is run out
+    bool Goal_Amount = false;//Judge if Alice sets the amount
+    bool Goal_HashData = false;//Judge if Alice uploads Hash value of the data
+    bool Goal_HashKey = false;//Judge if Alice uploads Hash value of the key
+    bool Goal_Deposit = false;//Judge if Alice sends the deposit
+    bool Goal_Money = false;//Judge if Bob sends the money 
+    bool Goal_PubKeyB = false;//Judge if Bob sends his public key 
+    bool Goal_EnK = false;//Judge if Alice sends the encrypted key
+    bool Goal_GotRep = false;//Jugde if Bob sends the report
+    bool Goal_Verify = false;//Judge if the report sent by Bob is true
+    bool Goal_Success = false;//Judge if the transaction is successful
+    bool Goal_First = false;//Judge if the time of first step is run out
+    bool Goal_Second = false;//Judge if the time of second step is run out
+    bool Goal_Third = false;//Judge if the time of third step is run out
 
     event SetAmountAndDeposit(uint);
     event UploadHashData(string);
