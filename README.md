@@ -1,5 +1,5 @@
 # A Copyright Protection Method in Big Data Trade
-This is the prototype of [our work](https://www.sciencedirect.com/science/article/abs/pii/S1084804520304057). If you find our code is useful for your research, please considering citing it as:
+This is the prototype of [our work](https://www.sciencedirect.com/science/article/abs/pii/S1084804520304057). If you find our code useful for your research, please consider citing it as:
 
         @article{XIANG2021102953,
           title = {A multi-type and decentralized data transaction scheme based on smart contracts and digital watermarks},
@@ -11,4 +11,4 @@ This is the prototype of [our work](https://www.sciencedirect.com/science/articl
           author = {Yuexin Xiang and Wei Ren and Tiantian Li and Xianghan Zheng and Tianqing Zhu and Kim-Kwang Raymond Choo}
         }
 
-To further understand how our code works, you can see the Directions.pdf. If you have any questions please feel free to contact me by e-mail yuexin.xiang@cug.edu.cn.
+To further understand how our code works, you can see the Directions.pdf. If you have any questions please feel free to contact me at yuexin.xiang@cug.edu.cn.
